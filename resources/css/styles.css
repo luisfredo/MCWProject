@@ -1,0 +1,204 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4, p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+
+/*Header*/
+header {
+    /*position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;*/
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: solid 2px #A66844;
+    background-color: #fff;
+    padding: 0.5rem 0;
+}
+
+header .logo {
+    width: 5.8rem;
+    height: auto;
+   
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header ul a{
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+header li {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+/*Mission*/
+
+.mission-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment:fixed;
+    width: 100%;
+    height: 35rem;
+    /*margin-top: 6.9rem;*/
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    opacity: 0.95;
+    padding: 2rem;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.mission h1 {
+    text-align: center;
+    font-size: 2.2rem ;
+}
+
+.mission p {
+    margin-top: 0.7rem;
+    text-align: center;
+    font-size: 1.2rem ;
+}
+.mission .center {
+    width: 32rem;
+}
+
+/*Our Work*/
+.work-section {
+    margin-top: 4rem;
+    padding: 0 2rem;
+}
+.work-section h2{
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.work-card{
+    margin: 0.5rem;
+    overflow: hidden;
+    flex: 1 1 19rem;
+}
+
+.work-card p {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.work-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Team*/
+.team-section {
+    margin-top: 4rem;
+}
+
+.team-section h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding: 1rem 0;
+    height: 100%;
+    background-image: url(../images/team-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 100%;
+    margin: 0.5rem;
+}
+
+.team-card .img-container{
+    overflow: hidden;
+}
+
+.team-card img {
+    max-height: 20rem;
+    width: auto;
+}
+
+.team-card .name {
+    margin-top: 0.70rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-card .role{
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    line-height: 2;
+    margin-top: 3rem;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+    /*text-align: left;*/
+    margin-left: 1rem;
+    margin: 2rem;
+}
